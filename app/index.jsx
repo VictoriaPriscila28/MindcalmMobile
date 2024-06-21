@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   StyleSheet,
   SafeAreaView,
@@ -21,17 +21,17 @@ const emotionsData = [
 
 // Dados de exemplo para a lista horizontal de cartões
 const dataHorizontal = [
-  { id: '1', title: 'Card 1', image: 'https://via.placeholder.com/150' },
-  { id: '2', title: 'Card 2', image: 'https://via.placeholder.com/150' },
-  { id: '3', title: 'Card 3', image: 'https://via.placeholder.com/150' },
-  { id: '4', title: 'Card 4', image: 'https://via.placeholder.com/150' },
+  { id: '1', title: 'Médico', image: 'https://images.unsplash.com/photo-1651008376811-b90baee60c1f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { id: '2', title: 'Clínica', image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { id: '3', title: 'Saúde Mental', image: 'https://plus.unsplash.com/premium_photo-1665990292585-6a39c5229bc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGhlcmFweXxlbnwwfHwwfHx8MA%3D%3D' },
+  { id: '4', title: 'Exercícios de Respiração', image: 'https://images.unsplash.com/photo-1554244933-d876deb6b2ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnJlYXRoaW5nfGVufDB8fDB8fHww' },
 ];
 
 // Dados de exemplo para a lista vertical de cartões
 const dataVertical = [
-  { id: '1', title: 'Vertical Card 1', description: 'Description 1' },
-  { id: '2', title: 'Vertical Card 2', description: 'Description 2' },
-  { id: '3', title: 'Vertical Card 3', description: 'Description 3' },
+  { id: '1', title: 'Meditação', description: 'Descubra os beneficíos de meditar' },
+  { id: '2', title: 'Diário de emoções', description: 'Insira aqui como você esta se sentindo' },
+  { id: '3', title: 'Exercicíos de respiração', description: 'Comece já' },
   { id: '4', title: 'Vertical Card 4', description: 'Description 4' },
 ];
 
@@ -47,7 +47,6 @@ export default function Example() {
     <View style={styles.card}>
       <Image source={{ uri: item.image }} style={styles.cardImage} />
       <Text style={styles.cardTitle}>{item.title}</Text>
-      
     </View>
   );
 
@@ -84,7 +83,7 @@ export default function Example() {
         </View>
 
         <View style={styles.userInfo}>
-          <Text style={styles.userName}>Olá, Usuário!</Text>
+          <Text style={styles.userName}>Olá, Marcos!</Text>
           <Text style={styles.question}>Como você está se sentindo hoje?</Text>
         </View>
 

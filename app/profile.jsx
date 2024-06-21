@@ -49,17 +49,17 @@ export default function Example() {
           </TouchableOpacity>
 
           <View>
-            <Text style={styles.profileName}>John Doe</Text>
+            <Text style={styles.profileName}>Marcos Alencar</Text>
 
             <Text style={styles.profileAddress}>
-              123 Maple Street. Anytown, PA 17101
+              Rua do Pombal, 123. Recife, PE
             </Text>
           </View>
         </View>
 
         <ScrollView>
           <View style={styles.section}>
-            <Text style={styles.sectionTitle}>Preferences</Text>
+            <Text style={styles.sectionTitle}>Preferências</Text>
 
             <TouchableOpacity
               onPress={() => {
@@ -70,7 +70,7 @@ export default function Example() {
                 <FeatherIcon color="#fff" name="globe" size={20} />
               </View>
 
-              <Text style={styles.rowLabel}>Language</Text>
+              <Text style={styles.rowLabel}>Idiomas</Text>
 
               <View style={styles.rowSpacer} />
 
@@ -106,7 +106,7 @@ export default function Example() {
                   size={20} />
               </View>
 
-              <Text style={styles.rowLabel}>Location</Text>
+              <Text style={styles.rowLabel}>Localização</Text>
 
               <View style={styles.rowSpacer} />
 
@@ -153,7 +153,7 @@ export default function Example() {
           </View>
 
           <View style={styles.section}>
-            <Text style={styles.sectionTitle}>Resources</Text>
+            <Text style={styles.sectionTitle}>Recursos</Text>
 
             <TouchableOpacity
               onPress={() => {
@@ -183,7 +183,7 @@ export default function Example() {
                 <FeatherIcon color="#fff" name="mail" size={20} />
               </View>
 
-              <Text style={styles.rowLabel}>Contact Us</Text>
+              <Text style={styles.rowLabel}>Entre em contato</Text>
 
               <View style={styles.rowSpacer} />
 
@@ -202,7 +202,7 @@ export default function Example() {
                 <FeatherIcon color="#fff" name="star" size={20} />
               </View>
 
-              <Text style={styles.rowLabel}>Rate in App Store</Text>
+              <Text style={styles.rowLabel}>Avalie o app</Text>
 
               <View style={styles.rowSpacer} />
 
