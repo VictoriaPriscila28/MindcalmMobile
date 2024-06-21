@@ -1,0 +1,8 @@
+{
+    "psicologos": [
+      { "id": 1, "name": "Dr. John Doe", "latitude": 37.789, "longitude": -122.432 },
+      { "id": 2, "name": "Dr. Jane Smith", "latitude": 37.791, "longitude": -122.433 },
+      { "id": 3, "name": "Dr. Michael Brown", "latitude": 37.792, "longitude": -122.435 }
+    ]
+  }
+  
